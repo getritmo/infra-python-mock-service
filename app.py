@@ -3,7 +3,7 @@ import os
 
 app = Flask(__name__)
 
-@app.route("/")
+@app.route("/__health")
 def hello():
     return "Ritmo dummy service for testing!"
 
